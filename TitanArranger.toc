@@ -7,6 +7,7 @@
 ## SavedVariables: TitanArrangerDB
 ## IconAtlas: icon_buffreorder
 ## X-Curse-Project-ID: 1817759
+## X-Wago-ID: 96EXdYNg
 ## AddonCompartmentFunc: TitanArranger_OnAddonCompartmentClick
 ## AddonCompartmentFuncOnEnter: TitanArranger_OnAddonCompartmentEnter
 ## AddonCompartmentFuncOnLeave: TitanArranger_OnAddonCompartmentLeave

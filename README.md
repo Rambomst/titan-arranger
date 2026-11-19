@@ -73,8 +73,9 @@ switch for whether Edit Mode starts arranging.
 
 ## Install
 
-Install it from [CurseForge](https://www.curseforge.com/wow/addons/titan-panel-arranger), by hand or with an addon
-manager, or extract the zip from the newest [release](https://github.com/Rambomst/titan-arranger/releases) into
+Install it from [CurseForge](https://www.curseforge.com/wow/addons/titan-panel-arranger) or
+[Wago Addons](https://addons.wago.io/addons/titan-panel-arranger), by hand or with an addon manager, or extract the
+zip from the newest [release](https://github.com/Rambomst/titan-arranger/releases) into
 `World of Warcraft/_forever_/Interface/AddOns`, next to Titan Panel.
 
 ## Bugs and ideas
