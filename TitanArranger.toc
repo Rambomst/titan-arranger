@@ -6,6 +6,7 @@
 ## Dependencies: Titan
 ## SavedVariables: TitanArrangerDB
 ## IconAtlas: icon_buffreorder
+## X-Curse-Project-ID: 1817759
 ## AddonCompartmentFunc: TitanArranger_OnAddonCompartmentClick
 ## AddonCompartmentFuncOnEnter: TitanArranger_OnAddonCompartmentEnter
 ## AddonCompartmentFuncOnLeave: TitanArranger_OnAddonCompartmentLeave

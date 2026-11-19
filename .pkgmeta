@@ -1,5 +1,9 @@
 package-as: TitanArranger
 
+# CurseForge relation, so the CurseForge app installs Titan Panel along with Arranger.
+required-dependencies:
+  - titan-panel
+
 manual-changelog:
   filename: CHANGELOG.md
   markup-type: markdown
