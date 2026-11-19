@@ -1,0 +1,4 @@
+# The Titan Panel release the scenario tests run against: version, CurseForge file id and file name. tests/titan.sh
+# fetches it once; TITAN_DIR runs the tests on another unpacked copy. To move to a newer Titan, put its line here
+# once the tests pass on it.
+9.3.7 9656248 TitanPanel-9.3.7.zip

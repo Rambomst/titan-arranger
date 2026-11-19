@@ -1,0 +1,4 @@
+# The cjber/forever-core commit whose forever_sim the tests run on; tests/sim.sh fetches it. To move to a newer one,
+# run tests/run.sh with FOREVER_SIM set to that commit's forever_sim folder in a forever-core checkout
+# (.agents/skills/wow-forever-addon/tooling/forever_sim), and put the commit here once the tests pass.
+f39eb0c9f77b6638345ebbefc5c1cbc2c026c480

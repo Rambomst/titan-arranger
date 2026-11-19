@@ -1,0 +1,23 @@
+## Interface: 16001
+## Title: Titan Panel [Arranger]
+## Notes: Drag and drop arranging for Titan Panel, with a lock and Edit Mode support.
+## Author: rambomst
+## Version: @project-version@
+## Dependencies: Titan
+## SavedVariables: TitanArrangerDB
+## IconAtlas: icon_buffreorder
+## AddonCompartmentFunc: TitanArranger_OnAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: TitanArranger_OnAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: TitanArranger_OnAddonCompartmentLeave
+
+Locale.lua
+Model.lua
+Adapter.lua
+Theme.lua
+Layout.lua
+Drag.lua
+Overlays.lua
+Popup.lua
+Panel.lua
+Plugin.lua
+Core.lua

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f3086"/>
+      <stop offset="1" stop-color="#170c2e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff0a0"/>
+      <stop offset="0.55" stop-color="#ffd100"/>
+      <stop offset="1" stop-color="#e09a00"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf5e6"/>
+      <stop offset="1" stop-color="#e6d8b8"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5d6474"/>
+      <stop offset="1" stop-color="#2a2e38"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="72" fill="url(#bg)"/>
+
+  <!-- the bar -->
+  <rect x="36" y="236" width="328" height="100" rx="22" fill="url(#bar)" stroke="#0c1020" stroke-width="12"/>
+
+  <!-- two plugins on it -->
+  <g stroke="#0c1020" stroke-width="12" stroke-linejoin="round">
+    <rect x="72" y="254" width="112" height="64" rx="14" fill="url(#paper)"/>
+    <rect x="216" y="254" width="112" height="64" rx="14" fill="url(#gold)"/>
+  </g>
+
+  <!-- the move: up from the left one, over, and down onto the right one -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M128 232 C128 92, 272 92, 272 196" stroke="#0c1020" stroke-width="46"/>
+    <path d="M128 232 C128 92, 272 92, 272 196" stroke="url(#gold)" stroke-width="22"/>
+  </g>
+  <path d="M232 186 L312 186 L272 240 Z" fill="url(#gold)" stroke="#0c1020" stroke-width="12" stroke-linejoin="round"/>
+</svg>

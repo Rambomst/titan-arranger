@@ -1,0 +1,32 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions: {}
+
+jobs:
+  test:
+    uses: ./.github/workflows/ci.yml
+    permissions:
+      contents: read
+
+  release:
+    needs: test
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write # the packager creates the GitHub release
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # the packager takes the version from the tag
+          persist-credentials: false
+      # Uploads to CurseForge when the TOC has X-Curse-Project-ID and to Wago when it has X-Wago-ID; a missing
+      # secret or ID skips that site.
+      - uses: BigWigsMods/packager@01e8631a69c69d7654c788d152630d5fed9e3812 # v2.7.0
+        env:
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+          GH_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
