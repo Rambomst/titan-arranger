@@ -34,3 +34,17 @@ stays in Titan's own settings, per profile. Needs Titan Panel 9.3.7 or later.
 ### Buy me a coffee?
 
 <a href="https://ko-fi.com/ram01"><img src="https://storage.ko-fi.com/cdn/brandasset/v2/support_me_on_kofi_beige.png" alt="Support me on Ko-fi" width="254" height="51"></a>
+
+## Screenshots
+
+Upload these from `media/screenshots/` to the CurseForge Media tab (mark both Feature Media) and the Wago gallery.
+CurseForge takes images under 2 MB, hence JPEG.
+
+1. `arranging.jpg`
+   - Title: Arranging
+   - Description: While you arrange, every plugin on a bar has a box. The panel lists the plugins on no bar under
+     Titan's own groups, with the spacing for each area. Click a plugin for its options.
+2. `plugin-options.jpg`
+   - Title: A plugin's options
+   - Description: Click a plugin while arranging for its side, what it shows, and its margins, which can go below
+     zero.

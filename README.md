@@ -6,7 +6,7 @@ Titan Panel places its plugins through right-click menus: a checkbox for the sid
 for the order, and a separate Short bar for anything in the middle. Dragging a plugin ignores where you drop it.
 Arranger lets you put every plugin exactly where you want it by dragging, and keeps them there.
 
-![Arranging: boxes over the plugins, the Arranger panel and a plugin's options](media/screenshots/arranging.png)
+![Arranging: boxes over the plugins, the Arranger panel and a plugin's options](media/screenshots/arranging.jpg)
 
 - **Drag and drop:** drag any plugin to any place on any Titan bar. A gold line shows exactly where it will land.
 - **Left, centre or right:** every bar has a centre area as well as its two ends, so a plugin can sit in the middle.
@@ -40,7 +40,7 @@ Your layout stays in Titan's own settings, per Titan profile.
 3. Close Edit Mode, click Done on the panel, click the Arranger button again or type `/arranger`. Plugins are locked
    again.
 
-![A plugin's options while arranging: its side, what it shows and its margins](media/screenshots/plugin-options.png)
+![A plugin's options while arranging: its side, what it shows and its margins](media/screenshots/plugin-options.jpg)
 
 `/arranger revert` undoes everything since arranging started. `/arranger help` lists the commands. The panel has a
 switch for whether Edit Mode starts arranging.
